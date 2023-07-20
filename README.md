@@ -59,7 +59,7 @@ The `utils` folder contains various utility functions used throughout the projec
 
 To use the functions, follow these steps:
 
-1. Import the function in your code, getShops as demo:
+1. Import the function in your code, `getShops` function as demo:
    ```javascript
    import { getShops } from './utils/admin/getShops.mjs';
    ```
