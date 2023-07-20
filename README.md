@@ -28,8 +28,8 @@ The project follows a small camel case naming convention and has the following s
 ```
 .
 ├── README.md
-├── package-lock.json
 ├── package.json
+├── package-lock.json
 ├── node_modules
 ├── index.mjs
 └── utils
