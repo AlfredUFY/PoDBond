@@ -1,0 +1,16 @@
+{
+  "name": "podbond",
+  "version": "0.0.1",
+  "description": "PoDBond is a powerful Node.js utility developed using ES modules. It provides seamless integration with the Printify API service. This tool is designed to simplify the process of working with the Printify API, enabling website administrators to efficiently manage their shops.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  }
+}
