@@ -1,14 +1,14 @@
 import dotenv from 'dotenv';
 import { getShops } from './utils/admin/getShops.mjs';
-import { getBlueprints } from './utils/admin/getBlueprints.mjs';
+import { getBlueprints } from './utils/public/getBlueprints.mjs';
 
 dotenv.config();
 
 const apiKey = process.env.API_KEY;
 
 const run = async () => {
-    const result = await getBlueprints();
-    console.log(result[0]);
+    const result = await getBlueprints(apiKey);
+    console.log(result);
 };
 
 run().catch((err) => {
